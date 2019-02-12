@@ -153,24 +153,59 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2019/02/12/关于爱情/">关于爱情</a>
+      <a class="article-title" href="/2019/02/13/关于爱情/">关于爱情</a>
     </h1>
   
 
         
-        <a href="/2019/02/12/关于爱情/" class="archive-article-date">
-  	<time datetime="2019-02-12T15:55:04.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-02-12</time>
+        <a href="/2019/02/13/关于爱情/" class="archive-article-date">
+  	<time datetime="2019-02-12T17:11:05.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-02-13</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>  该从哪里开始说起呢，面对这样宏大的命题，你总会显得茫然无措。是啊，年近20，你离爱情又有多近呢？不知道，或许就在明天，或许还要等很久很久……</p>
-<p>  最近看了《月色真美》和《你的名字》，心中颇有感想，今天就趁着夜色写写感悟，写写我的爱情观。</p>
-        
-          <a class="article-more-a" href="/2019/02/12/关于爱情/#more">more >></a>
-        
+        <script src="/js/crypto-js.js"></script>
+<script>
+function doDecrypt (pwd, onError) {
+	console.log('in doDecrypt');
+	const txt = document.getElementById('enc_content').innerHTML;
+	let plantext;
+	try {
+		const bytes = CryptoJS.AES.decrypt(txt, pwd);
+		var plaintext = bytes.toString(CryptoJS.enc.Utf8);
+	} catch(err) {
+		if(onError) {
+			onError(err);
+		}
+		return;
+	}
+	document.getElementById('enc_content').innerHTML = plaintext;
+	document.getElementById('enc_content').style.display = 'block';
+	document.getElementById('enc_passwd').style.display = 'none';
+	if(typeof MathJax !== 'undefined') {
+		MathJax.Hub.Queue(
+			['resetEquationNumbers', MathJax.InputJax.TeX],
+			['PreProcess', MathJax.Hub],
+			['Reprocess', MathJax.Hub]
+		);
+	}
+}
+</script>
+<div id="enc_content" style="display:none">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</div>
+<div id="enc_passwd"> <input id="enc_pwd_input" type="password" style="border-radius: 5px;border-style: groove;height: 30px;width: 50%;cursor: auto;font-size: 102%;color: currentColor;outline: none;text-overflow: initial;padding-left: 5px;" onkeydown="if (event.keyCode == 13) { decrypt(); return false;}"> <input type="submit" value="解&nbsp;密" onclick="decrypt()" style="width: 58px;height: 34px;border-radius: 5px;background-color: white;border-style: solid;color: currentColor;"><div id="enc_error" style="display: inline-block;color: #d84527;margin-left: 10px"></div>
+<script>
+var onError = function(error) {
+	document.getElementById("enc_error").innerHTML = "password error!"
+};
+function decrypt() {
+var passwd = document.getElementById("enc_pwd_input").value;
+console.log(passwd);
+doDecrypt(passwd, onError);
+}
+</script>
+</div>
       
 
       
@@ -553,11 +588,11 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">hexo</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">随笔</a>
         		</li>
       		 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">随笔</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">hexo</a>
         		</li>
       		
 		</ul>
@@ -748,15 +783,15 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">hexo</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">随笔</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">漫评</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">hexo</a>
               </li>
              
               <li class="article-tag-list-item">
